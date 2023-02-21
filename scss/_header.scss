@@ -1,0 +1,21 @@
+.header {
+    padding-bottom: 30px;
+    
+    &__title {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        width: max-content;
+        color: transparent;
+        background: linear-gradient(90.07deg, #C75EFF 0.03%, #735DFF 90.94%);
+        background-clip: text;
+    }
+    &__subtitle {
+        font-size: 20px;
+        font-weight: 400;
+        width: max-content;
+        color: transparent;
+        background: linear-gradient(90.07deg, #735DFF 0.03%, #C75EFF 90.94%);
+        background-clip: text;
+    }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="icon" href="/img/title-icon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="header__title">ToDo List</div>
+            <div class="header__subtitle">List of tasks for today</div>
+        </div>
+
+        <div class="body">
+            <ul id="tasksList" class="body__tasksList">
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__header">Add a new task</div>
+        <div class="card__body">
+            <form id="form" class="card__form">
+                <div class="card__form-group">
+                    <input autocomplete="off" autofocus id="taskInput" type="text" class="card__form-control" placeholder="type here...">
+                    <small class="card__form-text">Write what you want to do</small>
+                </div>
+                <button type="submit" class="card__btn">Add</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
